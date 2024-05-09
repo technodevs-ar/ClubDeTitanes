@@ -1,0 +1,37 @@
+.nav-button {
+  color: #c8c8c8;
+  text-decoration: none;
+  font-size: 16px;
+  border: none;
+  background: none;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-button:hover {
+  color: #f7f7f7;
+  transition: 0.2s;
+}
+
+.nav-button::before {
+  margin-left: auto;
+}
+
+.nav-button::after, .nav-button::before {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #ea9e23;
+  display: block;
+  transition: 0.2s;
+}
+
+.nav-button:hover::after, .nav-button:hover::before {
+  width: 100%;
+}
+
+header {
+  box-shadow: 1px 1px 1px -6px rgba(255,170,6,0.5);
+-webkit-box-shadow: 1px 2px 21px -10px rgba(234,159,36, 10);
+-moz-box-shadow: 1px 4px 21px -16px rgba(234,159,36, 10);
+}
