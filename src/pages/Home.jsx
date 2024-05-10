@@ -1,9 +1,10 @@
-import { Link } from "react-router-dom"
-import { Banner } from "../components/Home/Banner"
+import { GridAcceso } from "../components/Home/GridAcceso"
+/* import { Banner } from "../components/Home/Banner" */
 const Home = () => {
   return (
     <main>
-      <Banner />
+      {/* <Banner /> */}
+      <GridAcceso/>
     </main>
   )
 }
