@@ -3,7 +3,7 @@ import './header.css'
 
 export const Header = () => {
   return (
-    <header className="bg-[#121212] body-font">
+    <header className="bg-[#121212] body-font z-10 mb-[-10px] relative">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
           <img src={Logo} alt="Logo del Club de titanes" className="w-40" />
