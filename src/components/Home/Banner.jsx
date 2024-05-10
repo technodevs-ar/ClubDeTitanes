@@ -1,9 +1,9 @@
-import banner from '../../assets/icons/banner.png';
+import banner3 from '../../assets/images/Banner.png';
 
 export const Banner = () => {
     return(
-        <section className='-z-10 banner'>
-         <img src={banner} alt="" />
+        <section className='-z-10 w-full'>
+            <img src={banner3} className='w-full' alt="" />
         </section>
     )
 }
