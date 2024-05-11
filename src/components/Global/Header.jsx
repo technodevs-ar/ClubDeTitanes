@@ -24,7 +24,7 @@ export const Header = () => {
 
   return (
     <header
-      className={`bg-inherit body-font z-10 mb-[-10px] fixed w-full ${isScrolled ? "scrolled" : ""
+      className={`bg-inherit body-font z-10 mb-[-10px] fixed w-full ${isScrolled ? "scrolled" : "noscrolled"
         }`}
     >
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
