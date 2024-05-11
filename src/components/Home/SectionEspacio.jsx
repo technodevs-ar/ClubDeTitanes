@@ -15,13 +15,13 @@ export const SectionEspacio = () => {
       <div className='polygon hidden lg:block bg-gradient-to-b from-secondary-950 to-secondary-900 w-32 h-20 absolute m-auto left-0 right-0 z-0 bottom-0 opacity-50'></div>
       <div className='polygon hidden lg:block bg-gradient-to-b from-secondary-950 to-secondary-900 w-32 h-20 absolute m-auto left-[250px] right-0 z-0 -bottom-20 opacity-50'></div>
 
-      <div className="container md:ml-auto md:mr-auto w-full flex justify-center flex-col gap-7 z-20">
+      <div className="container md:ml-auto md:mr-auto w-full flex justify-center flex-col gap-0 lg:gap-0 z-20">
         <Parallax speed={20} className='bg-gradient-to-b from-primary-200 via-primary-400 to-primary-600 inline-block text-center text-transparent bg-clip-text text-3xl sm:text-4xl md:text-5xl font-bold'>
           <h1>
             EL PRIMER ESPACIO PARA FORMAR TITANES
           </h1>
         </Parallax>
-        <Parallax speed={30} className='flex flex-col lg:flex-row gap-12 items-center justify-center mt-0 lg:mt-12'>
+        <Parallax speed={40} className='flex flex-col lg:flex-row gap-12 items-center justify-center mt-0 lg:mt-12'>
           <p className="text-gray-200 text-center md:text-lg lg:text-2xl lg:px-12 xl:px-28 w-full lg:w-1/2">
             Descubre la plataforma donde te convertirás en un auténtico TITÁN. Aprende sobre negocios, mentalidad, métodos, superación personal, desarrollo físico, señales de trading, análisis de BTC ¡y mucho más! Únete a Lee y otros Titanes en este viaje hacia el éxito.
           </p>
