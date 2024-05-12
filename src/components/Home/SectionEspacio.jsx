@@ -1,7 +1,20 @@
-import { Parallax } from 'react-scroll-parallax'
+import { Parallax, useParallax } from 'react-scroll-parallax'
 import Gimnasio from '../../assets/images/gimnasio.webp'
 import './espacio-titanes.css'
+import './button-brigth.css'
 export const SectionEspacio = () => {
+
+  const parallax = useParallax({
+    onProgressChange: (progress) => {
+      if (parallax.ref.current) {
+        // set progress to CSS variable
+        parallax.ref.current.style.setProperty(
+          "--progress",
+          progress.toString()
+        );
+      }
+    },
+  });
 
   return (
     <section className="bg-alternative-950 relative -mt-3 w-full flex justify-center p-5 py-32 lg:py-48">
@@ -16,15 +29,20 @@ export const SectionEspacio = () => {
       <div className='polygon hidden lg:block bg-gradient-to-b from-secondary-950 to-secondary-900 w-32 h-20 absolute m-auto left-[250px] right-0 z-0 -bottom-20 opacity-50'></div>
 
       <div className="container md:ml-auto md:mr-auto w-full flex justify-center flex-col gap-0 lg:gap-0 z-20">
-        <Parallax speed={20} className='bg-gradient-to-b from-primary-200 via-primary-400 to-primary-600 inline-block text-center text-transparent bg-clip-text text-3xl sm:text-4xl md:text-5xl font-bold'>
-          <h1>
+        <div className='bg-gradient-to-b from-primary-200 via-primary-400 to-primary-600 inline-block text-center text-transparent bg-clip-text text-3xl sm:text-4xl md:text-5xl font-bold'>
+          <h1 ref={parallax.ref} className="bg-gradient-to-b espacio-titanes from-primary-200 via-primary-400 to-primary-600 inline-block text-center text-transparent bg-clip-text text-3xl sm:text-4xl md:text-5xl font-bold">
             EL PRIMER ESPACIO PARA FORMAR TITANES
           </h1>
-        </Parallax>
-        <Parallax speed={40} className='flex flex-col lg:flex-row gap-12 items-center justify-center mt-0 lg:mt-12'>
-          <p className="text-gray-200 text-center md:text-lg lg:text-2xl lg:px-12 xl:px-28 w-full lg:w-1/2">
+        </div>
+        <Parallax speed={10} className='flex flex-col lg:flex-row gap-12 items-center justify-center mt-0 lg:mt-12'>
+          <div className='text-gray-200 text-center md:text-lg lg:text-2xl lg:px-12 xl:px-16 w-full lg:w-1/2 flex flex-col gap-5 justify-center items-center'>
+            <p>
             Descubre la plataforma donde te convertirás en un auténtico TITÁN. Aprende sobre negocios, mentalidad, métodos, superación personal, desarrollo físico, señales de trading, análisis de BTC ¡y mucho más! Únete a Lee y otros Titanes en este viaje hacia el éxito.
           </p>
+            <button className="shadow__btn mt-7">
+              VER MAS
+            </button>
+          </div>
           <div className='flex justify-center w-full lg:w-1/2 z-0'>
             <img src={Gimnasio} alt="" className='rounded-md' />
           </div>
