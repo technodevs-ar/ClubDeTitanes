@@ -1,5 +1,5 @@
 import { Parallax, useParallax } from 'react-scroll-parallax'
-import Gimnasio from '../../assets/images/gimnasio.webp'
+import Brandon from '../../assets/images/brandon.webp'
 import './espacio-titanes.css'
 import './button-brigth.css'
 export const SectionEspacio = () => {
@@ -44,7 +44,7 @@ export const SectionEspacio = () => {
             </button>
           </div>
           <div className='flex justify-center w-full lg:w-1/2 z-0'>
-            <img src={Gimnasio} alt="" className='rounded-md' />
+            <img src={Brandon} alt="" className='rounded-md' />
           </div>
         </Parallax>
       </div>
