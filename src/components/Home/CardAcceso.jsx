@@ -2,7 +2,7 @@
 import { useRef, useState } from 'react';
 import IconComunidad from "../../assets/icons/Icon_Comunidad.png"
 
-export const CardAcceso = () => {
+export const CardAcceso = ({titulo, descripcion}) => {
   const divRef = useRef(null);
   const [isFocused, setIsFocused] = useState(false);
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -54,8 +54,8 @@ export const CardAcceso = () => {
       />
       <div className='flex flex-col items-center text-gray-200'>
       <img src={IconComunidad} alt="Icono comunidad" className='w-20'/>
-      <h3 className='font-semibold text-xl'>TITULO</h3>
-      <span className='text-center text-lg'>Descripción corta de lo ofrecido</span>
+      <h3 className='font-semibold text-center text-xl'>{titulo}</h3>
+      <span className='text-center text-lg'>{descripcion}</span>
       </div>
     </div>
   );
