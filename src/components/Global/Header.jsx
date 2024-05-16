@@ -25,9 +25,9 @@ export const Header = () => {
 
   return (
     <header
-      className={`bg-inherit body-font z-50 mb-[-10px] fixed w-full flex flex-col items-center ${
+      className={`bg-inherit transition-all md:justify-center body-font z-50 mb-[-10px] fixed w-full flex flex-col items-center ${
         isScrolled ? "scrolled" : "noscrolled"
-      }`}
+      } ${isMenuOpen ? "h-40" : "h-24"}`}
     >
       <div className="container mx-auto flex flex-wrap p-5 md:flex-row items-center justify-between">
         <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
@@ -96,8 +96,8 @@ export const Header = () => {
         </button>
       </div>
       <nav
-          className={`w-full md:hidden md:flex-wrap items-center text-center justify-center transition-all duration-300 ease-in-out ${
-            isMenuOpen ? "block slide-in" : " slide-out"
+          className={`pb-5 w-full md:hidden md:flex-wrap items-center text-center justify-center transition-all duration-300 ease-in-out ${
+            isMenuOpen ? "block slide-in" : "slide-out"
           } md:flex`}
         >
           <a className="mr-5 px-3 py-1 hover:text-gray-900 cursor-pointer">

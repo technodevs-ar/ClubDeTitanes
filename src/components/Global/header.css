@@ -76,5 +76,5 @@ transition: all .4s;
 }
 
 .slide-out {
-  animation: slideOut 0.3s forwards;
+  animation: slideOut 0.2s forwards;
 }
