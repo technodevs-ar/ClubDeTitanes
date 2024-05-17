@@ -80,19 +80,8 @@ export const Header = () => {
             <button className="nav-button">CONTACTO</button>
           </a>
         </nav>
-        <button className="hidden  md:inline-flex items-center bg-gradient-to-l from-primary-500 to-primary-600 border-0 py-1 px-3 focus:outline-none hover:scale-105 transition-transform transform duration-300 rounded-sm text-secondary-200 font-semibold mt-4 md:mt-0">
-          Contactáte
-          <svg
-            fill="none"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            className="w-4 h-4 ml-1"
-            viewBox="0 0 24 24"
-          >
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
+        <button className="shadow__btn h-10 text-sm flex justify-center items-center" onClick={() => document.getElementById('cards').scrollIntoView({ behavior: 'smooth' })} >
+          CONTÁCTATE
         </button>
       </div>
       <nav
