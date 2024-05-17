@@ -2,7 +2,7 @@ import { CardAcceso } from "./CardAcceso"
 import './banner.css'
 export const GridAcceso = () => {
   return(
-    <section className="flex flex-col gap-12 px-5 sm:px-32 py-48 cardBG">
+    <section className="flex flex-col gap-12 px-5 sm:px-32 py-48 cardBG" id='cards'>
       <div>
         <h3 className="text-gray-200 font-semibold text-2xl lg:text-3xl text-center">¿A QUÉ VAS A ACCEDER EN CLUB DE TITANES?</h3>
       </div>

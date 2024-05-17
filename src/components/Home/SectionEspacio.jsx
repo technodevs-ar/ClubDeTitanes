@@ -39,8 +39,8 @@ export const SectionEspacio = () => {
             <p>
             Descubre la plataforma donde te convertirás en un auténtico TITÁN. Aprende sobre negocios, mentalidad, métodos, superación personal, desarrollo físico, señales de trading, análisis de BTC ¡y mucho más! Únete a Lee y otros Titanes en este viaje hacia el éxito.
           </p>
-            <button className="shadow__btn mt-7">
-              VER MAS
+            <button className="shadow__btn mt-7" onClick={() => document.getElementById('cards').scrollIntoView({ behavior: 'smooth' })} >
+              VER MÁS
             </button>
           </div>
           <div className='flex justify-center w-full lg:w-1/2 z-0'>

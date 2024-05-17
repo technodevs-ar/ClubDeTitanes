@@ -1,3 +1,7 @@
+import avatar1 from "../../assets/images/avatar1.webp"
+import avatar2 from "../../assets/images/avatar2.webp"
+import avatar3 from "../../assets/images/avatar3.webp"
+
 export const Testimonial = () => {
   return (
     <section className="text-gray-400 bg-alternative-950/80 body-font flex flex-col py-40 gap-28 justify-center items-center">
@@ -20,29 +24,29 @@ export const Testimonial = () => {
         <div className="flex flex-wrap -m-4">
           <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
             <div className="h-full text-center">
-              <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10" src="https://dummyimage.com/302x302" />
-              <p className="leading-relaxed text-gray-200">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+              <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10" src={avatar1} />
+              <p className="leading-relaxed text-gray-200">El Club de Titanes ha transformado mi vida. Gracias a las enseñanzas de Brandon Lee y su equipo, he logrado independencia financiera y una mentalidad ganadora. ¡Recomendado 100%!</p>
               <span className="inline-block h-1 w-10 rounded bg-primary-500 mt-6 mb-4"></span>
-              <h2 className="text-white font-medium title-font tracking-wider text-sm">HOLDEN CAULFIELD</h2>
-              <p className="text-gray-500">Senior Product Designer</p>
+              <h2 className="text-white font-medium title-font tracking-wider text-sm">Carlos Gómez</h2>
+              <p className="text-gray-500">Emprendedor, Buenos Aires</p>
             </div>
           </div>
           <div className="lg:w-1/3 mb-6 lg:mt-20 lg:mb-0 p-4">
             <div className="h-full text-center">
-              <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10" src="https://dummyimage.com/300x300" />
-              <p className="leading-relaxed text-gray-200">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+              <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10" src={avatar2} />
+              <p className="leading-relaxed text-gray-200">Unirme al Club de Titanes fue la mejor decisión que pude tomar. No solo he aprendido a generar ingresos, sino que también he mejorado mi salud física y mental.</p>
               <span className="inline-block h-1 w-10 rounded bg-primary-500 mt-6 mb-4"></span>
-              <h2 className="text-white font-medium title-font tracking-wider text-sm">ALPER KAMU</h2>
-              <p className="text-gray-500">UI Develeoper</p>
+              <h2 className="text-white font-medium title-font tracking-wider text-sm">María López</h2>
+              <p className="text-gray-500">Diseñadora Gráfica, Córdoba</p>
             </div>
           </div>
           <div className="lg:w-1/3 lg:mb-0 p-4">
             <div className="h-full text-center">
-              <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10" src="https://dummyimage.com/305x305" />
-              <p className="leading-relaxed text-gray-200">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+              <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10" src={avatar3} />
+              <p className="leading-relaxed text-gray-200">El Club de Titanes me enseñó a vencer mis miedos y a transformar mi vida. Ahora, tengo una mentalidad inquebrantable y estoy generando ingresos que nunca imaginé posibles. ¡Es una experiencia increíble!</p>
               <span className="inline-block h-1 w-10 rounded bg-primary-500 mt-6 mb-4"></span>
-              <h2 className="text-white font-medium title-font tracking-wider text-sm">HENRY LETHAM</h2>
-              <p className="text-gray-500">CTO</p>
+              <h2 className="text-white font-medium title-font tracking-wider text-sm">Lucas Fernández</h2>
+              <p className="text-gray-500">Contador, Rosario</p>
             </div>
           </div>
         </div>
