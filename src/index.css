@@ -6,4 +6,5 @@
   background-color: #161832;
 /*   background-color: #171717; */
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }

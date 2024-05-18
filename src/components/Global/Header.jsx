@@ -70,17 +70,17 @@ export const Header = () => {
           )}
         </button>
         <nav className="hidden md:ml-auto md:mr-auto md:flex flex-wrap items-center text-base justify-center">
-          <a className="mr-5 px-3 py-1 hover:text-gray-900 cursor-pointer">
-            <button className="nav-button">ACADEMIA</button>
-          </a>
-          <a className="mr-5 px-3 py-1 hover:text-gray-900 cursor-pointer">
+          <a href="#nosotros" className="mr-5 px-3 py-1 hover:text-gray-900 cursor-pointer">
             <button className="nav-button">NOSOTROS</button>
           </a>
-          <a className="mr-5 px-3 py-1 hover:text-gray-900 cursor-pointer">
+          <a href="#referencias" className="mr-5 px-3 py-1 hover:text-gray-900 cursor-pointer">
+            <button className="nav-button">REFERENCIAS</button>
+          </a>
+          <a href="#contacto" className="mr-5 px-3 py-1 hover:text-gray-900 cursor-pointer">
             <button className="nav-button">CONTACTO</button>
           </a>
         </nav>
-        <button className="shadow__btn h-10 text-sm flex justify-center items-center" onClick={() => document.getElementById('cards').scrollIntoView({ behavior: 'smooth' })} >
+        <button className="hidden md:flex shadow__btn h-10 md:px-3 md:text-xs lg:px-5 lg:text-sm justify-center items-center" onClick={() => document.getElementById('cards').scrollIntoView({ behavior: 'smooth' })} >
           CONTÁCTATE
         </button>
       </div>

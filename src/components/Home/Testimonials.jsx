@@ -4,7 +4,7 @@ import avatar3 from "../../assets/images/avatar3.webp"
 
 export const Testimonial = () => {
   return (
-    <section className="text-gray-400 bg-alternative-950/80 body-font flex flex-col py-40 gap-28 justify-center items-center">
+    <section id='referencias' className="text-gray-400 bg-alternative-950/80 body-font flex flex-col py-40 gap-28 justify-center items-center">
       <h1 className="bg-gradient-to-b px-7 espacio-titanes from-primary-200 via-primary-400 to-primary-600 inline-block text-center text-transparent bg-clip-text text-2xl sm:text-3xl md:text-4xl font-bold">
         TU PRIMER ESPACIO DE TRANSFORMACIÓN
       </h1>

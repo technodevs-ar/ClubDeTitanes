@@ -2,8 +2,8 @@ import BrandomFoto from "../../assets/images/brandom_calle.jpeg"
 
 export const AboutUs = () => {
   return (
-    <section className="flex justify-center relative py-3 pb-12 sm:py-7 sm:pb-12 md:py-10 md:px-8 lg:py-0">
-      <div id="about" className="relative bg-secondary-950 overflow-hidden container">
+    <section id="nosotros" className="flex justify-center relative py-3 pb-12 sm:py-7 sm:pb-12 md:py-10 md:px-8 lg:py-0">
+      <div className="relative bg-secondary-950 overflow-hidden container">
         <div className="max-w-7xl mx-auto">
           <div className="relative pb-8 bg-secondary-950 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32 z-40">
             <svg className="hidden lg:block absolute right-0 inset-y-0 h-full w-40 transform translate-x-[80px]" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
