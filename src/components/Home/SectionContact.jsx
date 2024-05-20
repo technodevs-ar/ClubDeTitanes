@@ -1,36 +1,32 @@
+import './contact.css'
+
 export const SectionContact = () => {
   return (
-    <section className="bg-alternative-950/80 flex flex-row py-40 gap-28 justify-center items-center px-8 conta">
-      <div className="container flex px-8">
-        <div className="flex flex-col items-start container">
-          <h3 className="bg-gradient-to-b px-7 espacio-titanes text-white inline-block text-center text-transparent bg-clip-text text-xl sm:text-3xl md:text-2xl font-bold">
-          ¡Contacta con nosotros y empieza tu Transformación!
-          </h3>
-          <p className="px-7 py-5 text-white ">
-            Si estás preparado para cambiar tu vida, alcanzar la libertad
-            financiera, y superar tus límites, queremos saber de ti. No dudes en
-            ponerte en contacto con nosotros. En el Club de Titanes, estamos
-            aquí para guiarte en cada paso de tu viaje hacia el éxito.
-          </p>
-          <h2 className="bg-gradient-to-b px-7 espacio-titanes text-white inline-block text-center text-transparent bg-clip-text text-xl sm:text-3xl md:text-2xl font-bold" >Contacta a Nuestro Equipo</h2>
-          <p className="px-7 py-5 text-white ">Correo Electrónico: <br />
-          Para consultas generales: <a className="text-primary-400" href="mailto:info@clubdetitanes.com">info@clubdetitanes.com</a>
-          </p>
-        </div>
-        <div className="w-[1/2] flex flex-col items-start container">
-          <h1 className="bg-gradient-to-b px-7 espacio-titanes text-white inline-block text-center text-transparent bg-clip-text text-xl sm:text-3xl md:text-2xl font-bold">
-            ¿Cómo Podemos Ayudarte?
+    <section className="bg-alternative-950/80 flex flex-row py-32 justify-center items-center px-8 relative">
+      <div className="container flex px-8"> 
+        <div className="flex flex-col items-center container text-center">
+          <h1 className="bg-gradient-to-b espacio-titanes from-primary-200 via-primary-400 to-primary-600 inline-block text-center text-transparent bg-clip-text text-3xl sm:text-4xl md:text-4xl font-bold mb-7">
+            ¡Empezá tu transformación!
           </h1>
-          <p className="px-7 py-5 text-white ">
-          Ya sea que tengas preguntas sobre nuestros programas, necesites más información o simplemente quieras compartir tu historia, estamos aquí para escucharte y apoyarte. ¡Tu camino hacia la grandeza comienza con un simple mensaje!
+          <p className="sm:px-7 py-3 text-white text-xl ">
+            Si estás preparado para cambiar tu vida, alcanzar la libertad
+            financiera, y superar tus límites, queremos saber de ti. Nuestro
+            equipo está aquí para ayudarte a cada paso del camino. No importa
+            cuál sea tu punto de partida, estamos comprometidos a proporcionarte
+            las herramientas y el apoyo necesarios para que puedas alcanzar tus metas.
           </p>
-          <h2 className="bg-gradient-to-b px-7 espacio-titanes text-white inline-block text-center text-transparent bg-clip-text text-xl sm:text-3xl md:text-2xl font-bold" >Contacta a Nuestro Equipo</h2>
-          <p className="px-7 py-5 text-white ">Teléfono: <br />
-          Llámanos al: <a className="text-primary-400" href="tel:541112345678">+54 11 1234 5678</a> <br />
-          Estamos disponibles de lunes a viernes, de 9 AM a 6 PM.
-          </p>
+          <div className="flex gap-5 mt-12 flex-col lg:flex-row">
+            <button className="py-5 px-8 bg-gradient-to-r from-primary-700 to-primary-500 rounded-md text-base sm:text-lg text-gray-200 font-bold w-56 sm:w-96 h-20 sm:h-16">
+              Contáctate por mail
+            </button>
+            <button className="py-5 px-8 bg-gradient-to-r from-green-700 to-green-500 rounded-md text-base sm:text-lg text-gray-200 font-bold w-56 sm:w-96 h-20 sm:h-16 mt-7">
+              Enviar Whatsapp
+            </button>
+          </div>
         </div>
       </div>
+      <div className='top-vertice -mt-1 w-20 h-20 md:w-32 md:h-32 lg:w-48 lg:h-48 absolute top-0 left-0' />
+      <div className="bottom-vertice w-48 h-48 absolute right-0 bottom-0" />
     </section>
   );
 };

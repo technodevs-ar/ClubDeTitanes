@@ -1,0 +1,9 @@
+.bottom-vertice {
+  clip-path: polygon(100% 100%, 0 100%, 100% 0);
+  background-color: #090A10;
+}
+
+.top-vertice {
+  clip-path: polygon(0 0, 0 100%, 100% 0);
+  background-color: #161832;
+}
