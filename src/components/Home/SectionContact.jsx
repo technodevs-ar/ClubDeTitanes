@@ -2,7 +2,7 @@ import './contact.css'
 
 export const SectionContact = () => {
   return (
-    <section className="bg-alternative-950/80 flex flex-row py-32 justify-center items-center px-8 relative">
+    <section className="bg-alternative-950/80 flex flex-row py-32 justify-center items-center px-8 relative" id='contacto'>
       <div className="container flex px-8"> 
         <div className="flex flex-col items-center container text-center">
           <h1 className="bg-gradient-to-b espacio-titanes from-primary-200 via-primary-400 to-primary-600 inline-block text-center text-transparent bg-clip-text text-3xl sm:text-4xl md:text-4xl font-bold mb-7">

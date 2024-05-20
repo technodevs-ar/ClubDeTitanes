@@ -70,30 +70,32 @@ export const Header = () => {
           )}
         </button>
         <nav className="hidden md:ml-auto md:mr-auto md:flex flex-wrap items-center text-base justify-center">
-          <a href="#nosotros" className="mr-5 px-3 py-1 hover:text-gray-900 cursor-pointer">
-            <button className="nav-button">NOSOTROS</button>
-          </a>
           <a href="#referencias" className="mr-5 px-3 py-1 hover:text-gray-900 cursor-pointer">
             <button className="nav-button">REFERENCIAS</button>
+          </a>
+          <a href="#nosotros" className="mr-5 px-3 py-1 hover:text-gray-900 cursor-pointer">
+            <button className="nav-button">NOSOTROS</button>
           </a>
           <a href="#contacto" className="mr-5 px-3 py-1 hover:text-gray-900 cursor-pointer">
             <button className="nav-button">CONTACTO</button>
           </a>
         </nav>
-        <button className="hidden md:flex shadow__btn h-10 md:px-3 md:text-xs lg:px-5 lg:text-sm justify-center items-center" onClick={() => document.getElementById('cards').scrollIntoView({ behavior: 'smooth' })} >
+        <a href="#contacto">
+          <button className="hidden md:flex shadow__btn h-10 md:px-3 md:text-xs lg:px-5 lg:text-sm justify-center items-center" >
           CONTÁCTATE
         </button>
+        </a>
       </div>
       <nav
           className={` w-full md:hidden md:flex-wrap items-center text-center justify-center transition-all duration-300 ease-in-out ${
             isMenuOpen ? "block slide-in" : "slide-out"
           } md:flex`}
-        >
-        <a href="#nosotros" className="mr-5 px-3 py-1 hover:text-gray-900 cursor-pointer">
-          <button className="nav-button">NOSOTROS</button>
-          </a>
+      >
         <a href="#referencias" className="mr-5 px-3 py-1 hover:text-gray-900 cursor-pointer">
           <button className="nav-button">REFERENCIAS</button>
+        </a>
+        <a href="#nosotros" className="mr-5 px-3 py-1 hover:text-gray-900 cursor-pointer">
+          <button className="nav-button">NOSOTROS</button>
         </a>
         <a href="#contacto" className="mr-5 px-3 py-1 hover:text-gray-900 cursor-pointer">
             <button className="nav-button">CONTACTO</button>
