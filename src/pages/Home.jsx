@@ -4,6 +4,7 @@ import { SectionEspacio } from "../components/Home/SectionEspacio"
 import { Testimonial } from "../components/Home/Testimonials"
 import { Footer } from "../components/Home/Footer"
 import { AboutUs } from "../components/Home/AboutUs"
+import { SectionContact } from './../components/Home/SectionContact';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <GridAcceso />
       <Testimonial />
       <AboutUs />
+      <SectionContact />
       <Footer />
     </main>
   )
