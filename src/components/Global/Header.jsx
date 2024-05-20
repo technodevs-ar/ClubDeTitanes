@@ -89,13 +89,13 @@ export const Header = () => {
             isMenuOpen ? "block slide-in" : "slide-out"
           } md:flex`}
         >
-          <a className="mr-5 px-3 py-1 hover:text-gray-900 cursor-pointer">
-            <button className="nav-button">ACADEMIA</button>
+        <a href="#nosotros" className="mr-5 px-3 py-1 hover:text-gray-900 cursor-pointer">
+          <button className="nav-button">NOSOTROS</button>
           </a>
-          <a className="mr-5 px-3 py-1 hover:text-gray-900 cursor-pointer">
-            <button className="nav-button">NOSOTROS</button>
-          </a>
-          <a className="mr-5 px-3 py-1 hover:text-gray-900 cursor-pointer">
+        <a href="#referencias" className="mr-5 px-3 py-1 hover:text-gray-900 cursor-pointer">
+          <button className="nav-button">REFERENCIAS</button>
+        </a>
+        <a href="#contacto" className="mr-5 px-3 py-1 hover:text-gray-900 cursor-pointer">
             <button className="nav-button">CONTACTO</button>
           </a>
         </nav>
