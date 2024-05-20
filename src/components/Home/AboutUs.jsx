@@ -1,4 +1,5 @@
 import BrandomFoto from "../../assets/images/brandom_calle.jpeg"
+import './video.css'
 
 export const AboutUs = () => {
   return (
