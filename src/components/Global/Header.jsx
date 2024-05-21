@@ -80,8 +80,8 @@ export const Header = () => {
             <button className="nav-button">CONTACTO</button>
           </a>
         </nav>
-        <a href="#contacto">
-          <button className="hidden md:flex shadow__btn h-10 md:px-3 md:text-xs lg:px-5 lg:text-sm justify-center items-center" >
+        <a href="#contacto" className="hidden md:flex">
+          <button className="flex shadow__btn h-10 md:px-3 md:text-xs lg:px-5 lg:text-sm justify-center items-center" >
           CONTÁCTATE
         </button>
         </a>
