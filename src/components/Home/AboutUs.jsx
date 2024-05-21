@@ -20,11 +20,15 @@ export const AboutUs = () => {
             <main className="mt-10 mx-auto px-4 sm:mt-12 sm:px-7 md:mt-16 lg:mt-20 lg:px-0 lg:mr-32 xl:mt-28">
               <div className="sm:text-center lg:text-left">
                 <h1 className="bg-gradient-to-b espacio-titanes from-primary-200 via-primary-400 to-primary-600 inline-block text-center text-transparent bg-clip-text text-3xl sm:text-4xl md:text-5xl font-bold mb-7">
-                  ¿QUIÉN SOY?
+                  MI MISIÓN
                 </h1>
                 <p className="text-gray-200">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, minima iusto magni, ex veniam ullam natus commodi corporis similique alias magnam, deleniti iure accusamus impedit quidem doloribus consequatur inventore nisi?
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, reiciendis iusto. Quia animi pariatur, ab veniam itaque deserunt neque voluptatibus fugit? Omnis voluptatem magnam pariatur ipsam, praesentium adipisci aliquam facilis.
+                Ayudarte a convertirte en el GANADOR que llevas dentro y así poder escapar del sistema para vivir la vida de tus sueños. 
+                Cuento con las herramientas para que puedas empezar o mejorar tu negocio en internet. Conozco miles de maneras para ganar en dólares desde tu casa,
+                y los métodos para que puedas llegar a tener millones de seguidores en tus redes sociales. Esto es comprobable porque, con solo 40 videos, 
+                conseguí 330 mil suscriptores en YouTube y logré 1 millón en TikTok en pocos meses. Yo puedo enseñarte a ser viral, porque dar a conocer tu negocio
+                es lo más importante para que tenga éxito. También cuento con estrategias y rutinas personalizadas 1 a 1 
+                (y algunos secretos) para conseguir el mejor físico que tendrás en tu vida. Todo esto con mi ayuda y la de mi equipo.
                 </p>
               </div>
             </main>
